@@ -23,7 +23,7 @@
         <td><%= medicamento.componentes %></td>
         <td><%= medicamento.dosis %></td>
         <td><%= medicamento.uso %></td>
-        <td><%= medicamento.user_id %></td>
+        <td><%= medicamento.user.nombre %></td>
         <td><%= link_to 'Show', medicamento %></td>
         <td><%= link_to 'Edit', edit_medicamento_path(medicamento) %></td>
         <td><%= link_to 'Destroy', medicamento, method: :delete, data: { confirm: 'Are you sure?' } %></td>
